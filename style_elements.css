@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#97B1A6 50%, #D5573B 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 355px;
+    padding: 0 2em 1em;
+    border-radius: 1em;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    box-shadow: 0 1.6em 2.4em;
+
+}
+
+.container img {
+    width: 100%;
+}
+
+p {
+    font-weight: 400;
+    color: #747797;
+}
+
+span {
+    font-weight: 400;
+    color: #090931;
+}
+
+/*
+.indicator{
+    position: absolute;
+    /*top: 0;
+    bottom: 80;
+    left: 50%;
+    transform-origin: bottom center;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+}
+*/
