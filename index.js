@@ -68,7 +68,7 @@ window.onload = () =>{
         init();
     }
 };
-/*
+/* This function will eventually handle a rotating indicator
 const rotatingElement = document.getElementById("rotatingElement");
 function rotateElement(rotationAngle) {
     rotatingElement.style.transform = `rotate (${rotationAngle}deg)`;
