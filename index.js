@@ -9,7 +9,7 @@ let BSampleSpeed = 0,
     KSampleSpeed = 0,
     MSampleSpeed = 0;
     //Modifying the value of this parameter ( -> number of packets sampled ) will affect the accuracy as well as the speed of this test
-    testNr = 1;
+    testNr = 5;
     clear = 0;
 window.prompt("This is a sandbox project. Prompt anything to begin and enjoy!");
 console.log("User input - nubmer of test packets:", testNr);
